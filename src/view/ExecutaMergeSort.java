@@ -1,11 +1,14 @@
+package view;
 import java.util.Random;
 import java.util.Scanner;
+
+import model.MergeSort;
 
 public class ExecutaMergeSort {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
-		MergeSortClass merge = new MergeSortClass();
+		MergeSort merge = new MergeSort();
 		Random r = new Random();
 		int TAM = 100000;
 		int vet[] = new int[TAM];

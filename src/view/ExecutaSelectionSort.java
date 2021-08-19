@@ -1,11 +1,14 @@
+package view;
 import java.util.Random;
 import java.util.Scanner;
+
+import model.SelectionSort;
 
 public class ExecutaSelectionSort {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
-		SelectionSortClass select = new SelectionSortClass();
+		SelectionSort select = new SelectionSort();
 		Random r = new Random();
 		int TAM = 100000;
 		int vet[] = new int[TAM];

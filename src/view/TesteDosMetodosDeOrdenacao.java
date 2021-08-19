@@ -1,15 +1,22 @@
+package view;
 import java.util.Random;
 import java.util.Scanner;
+
+import model.BubleSort;
+import model.InsertionSort;
+import model.MergeSort;
+import model.QuickSort;
+import model.SelectionSort;
 
 public class TesteDosMetodosDeOrdenacao {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
-		BubleSortClass buble = new BubleSortClass();
-		InsertionSortClass insert = new InsertionSortClass();
-		SelectionSortClass select = new SelectionSortClass();
-		MergeSortClass merge = new MergeSortClass();
-		QuickSortClass quick = new QuickSortClass();
+		BubleSort buble = new BubleSort();
+		InsertionSort insert = new InsertionSort();
+		SelectionSort select = new SelectionSort();
+		MergeSort merge = new MergeSort();
+		QuickSort quick = new QuickSort();
 		Random r = new Random();
 		int TAM = 100000;
 		int vet[] = new int[TAM];

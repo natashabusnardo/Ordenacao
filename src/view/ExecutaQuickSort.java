@@ -1,12 +1,15 @@
+package view;
 import java.util.Random;
 import java.util.Scanner;
+
+import model.QuickSort;
 
 public class ExecutaQuickSort {
 
 	public static void main(String[] args) {
 		
 		Scanner entrada = new Scanner(System.in);
-		QuickSortClass quick = new QuickSortClass();
+		QuickSort quick = new QuickSort();
 		Random r = new Random();
 		int TAM = 100000;
 		int vet[] = new int[TAM];

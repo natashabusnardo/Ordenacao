@@ -1,11 +1,14 @@
+package view;
 import java.util.Random;
 import java.util.Scanner;
+
+import model.InsertionSort;
 
 public class ExecutaInsertionSort {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
-		InsertionSortClass insert = new InsertionSortClass();
+		InsertionSort insert = new InsertionSort();
 		Random r = new Random();
 		int TAM = 100000;
 		int vet[] = new int[TAM];

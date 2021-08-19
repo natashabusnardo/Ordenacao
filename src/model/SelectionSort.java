@@ -1,5 +1,6 @@
+package model;
 
-public class InsertionSortClass {
+public class SelectionSort {
 
 	private long comparacoes;
 	private long trocas;
@@ -24,22 +25,23 @@ public class InsertionSortClass {
 		this.tempototal = tempototal;
 	}	
 	
-	public int[] insertionSort(int[] vetor) {
+	public int[] selectionSort(int[] vetor) {
 		this.tempototal = System.currentTimeMillis();
         for (int i = 0; i < vetor.length; i++) {
-            int atual = vetor[i];
-            int j = i - 1;
-            this.comparacoes++;
-            while (j >= 0 && vetor[j] >= atual) {
-                vetor[j + 1] = vetor[j];
-                j--;
-                this.trocas++;
+            int indiceMinimo = i;
+            for (int j = i + 1; j < vetor.length; j++) {
+            	this.comparacoes++;
+                if (vetor[j] < vetor[indiceMinimo]) {
+                    indiceMinimo = j;
+                    this.trocas++;
+                }
             }
-            vetor[j + 1] = atual;;
-            this.trocas++;
+            int tmp = vetor[indiceMinimo];
+            vetor[indiceMinimo] = vetor[i];
+            vetor[i] = tmp;
         }
         this.tempototal = System.currentTimeMillis() - this.tempototal;
         return vetor;
-    }	
+    }
 	
 }

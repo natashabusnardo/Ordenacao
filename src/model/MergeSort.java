@@ -1,5 +1,6 @@
+package model;
 
-public class MergeSortClass {
+public class MergeSort {
 
 	private long comparacoes;
 	private long trocas;

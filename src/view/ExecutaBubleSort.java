@@ -1,11 +1,14 @@
+package view;
 import java.util.Random;
 import java.util.Scanner;
+
+import model.BubleSort;
 
 public class ExecutaBubleSort {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
-		BubleSortClass buble = new BubleSortClass();
+		BubleSort buble = new BubleSort();
 		Random r = new Random();
 		int TAM = 100000;
 		int vet[] = new int[TAM];

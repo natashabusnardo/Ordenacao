@@ -1,5 +1,6 @@
+package model;
 
-public class QuickSortClass {
+public class QuickSort {
 
 	private long comparacoes;
 	private long trocas;
