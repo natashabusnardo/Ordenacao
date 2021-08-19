@@ -1,5 +1,9 @@
 package model;
-
+/**
+ * Class that implements the Selection Sort sorting algorithm.
+ *
+ * @author Natasha Busnardo
+ */
 public class SelectionSort {
 
 	private long comparacoes;
@@ -25,6 +29,14 @@ public class SelectionSort {
 		this.tempototal = tempototal;
 	}	
 	
+	
+	/**
+	 * Returns an int array object that has the construction of the selection sort 
+	 * algorithm.
+	 * 
+	 * @param int vector that will be sorted
+	 * @return sorted vector Selection Sort algorithm
+	 */
 	public int[] selectionSort(int[] vetor) {
 		this.tempototal = System.currentTimeMillis();
         for (int i = 0; i < vetor.length; i++) {

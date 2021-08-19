@@ -2,7 +2,7 @@ package view;
 import java.util.Random;
 import java.util.Scanner;
 
-import model.BubleSort;
+import model.BubbleSort;
 import model.InsertionSort;
 import model.MergeSort;
 import model.QuickSort;
@@ -12,7 +12,7 @@ public class TesteDosMetodosDeOrdenacao {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
-		BubleSort buble = new BubleSort();
+		BubbleSort buble = new BubbleSort();
 		InsertionSort insert = new InsertionSort();
 		SelectionSort select = new SelectionSort();
 		MergeSort merge = new MergeSort();

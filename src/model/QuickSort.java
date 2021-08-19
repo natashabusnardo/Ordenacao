@@ -1,5 +1,11 @@
 package model;
 
+/**
+ * Class that implements the Quick Sort sorting algorithm.
+ *
+ * @author Natasha Busnardo
+ */
+
 public class QuickSort {
 
 	private long comparacoes;
@@ -25,6 +31,13 @@ public class QuickSort {
 		this.tempototal = tempototal;
 	}	
 	
+	/**
+	 * Returns an int array object that has the construction of the quick sort 
+	 * algorithm.
+	 * 
+	 * @param int vector that will be sorted
+	 * @return sorted vector Quick Sort algorithm
+	 */
 	public int[] quicksort(int vet[], int esq, int dir){
 	    int pivo = esq, i,ch,j;         
 	    for(i=esq+1;i<=dir;i++){        

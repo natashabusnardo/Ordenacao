@@ -1,6 +1,12 @@
 package model;
 
-public class BubleSort {
+/**
+ * Class that implements the Bubble Sort sorting algorithm.
+ *
+ * @author Natasha Busnardo
+ */
+
+public class BubbleSort {
 	
 	private long comparacoes;
 	private long trocas;
@@ -24,7 +30,14 @@ public class BubleSort {
 	public void setTempototal(long tempototal) {
 		this.tempototal = tempototal;
 	}
-	//Método de Ordenação BubleSort
+
+	/**
+	 * Returns an int array object that has the construction of the bubble sort 
+	 * algorithm.
+	 * 
+	 * @param int vector that will be sorted
+	 * @return sorted vector Bubble Sort algorithm
+	 */
 	public int[] bubbleSort(int vetor[]) {
         this.tempototal = System.currentTimeMillis();
         for (int i = vetor.length; i >= 1; i--) {

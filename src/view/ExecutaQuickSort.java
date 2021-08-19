@@ -11,7 +11,7 @@ public class ExecutaQuickSort {
 		Scanner entrada = new Scanner(System.in);
 		QuickSort quick = new QuickSort();
 		Random r = new Random();
-		int TAM = 100000;
+		int TAM = 10;
 		int vet[] = new int[TAM];
 		
 		//System.out.print("Vetor Inicial Aleatório = ");

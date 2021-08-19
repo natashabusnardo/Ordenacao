@@ -1,5 +1,10 @@
 package model;
 
+/**
+ * Class that implements the Merge Sort sorting algorithm.
+ *
+ * @author Natasha Busnardo
+ */
 public class MergeSort {
 
 	private long comparacoes;
@@ -24,7 +29,14 @@ public class MergeSort {
 	public void setTempototal(long tempototal) {
 		this.tempototal = tempototal;
 	}	
-		
+	
+	/**
+	 * Returns an int array object that has the construction of the merge sort 
+	 * algorithm.
+	 * 
+	 * @param int vector that will be sorted
+	 * @return sorted vector Merge Sort algorithm
+	 */
 	public int[] sort(int[] array) {
 	       
         if (array.length <= 1) {
@@ -54,6 +66,14 @@ public class MergeSort {
  
         return aux;
     }
+	
+	/**
+	 * Returns an int array object that has the construction of the merge sort 
+	 * algorithm.
+	 * 
+	 * @param int vector that will be sorted
+	 * @return sorted vector Merge Sort algorithm
+	 */
  
     public int[] mergesort(int[] esq, int[] dir) {
         int[] aux = new int[esq.length + dir.length];

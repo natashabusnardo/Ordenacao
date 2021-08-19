@@ -1,5 +1,10 @@
 package model;
 
+/**
+ * Class that implements the Insertion Sort sorting algorithm.
+ *
+ * @author Natasha Busnardo
+ */
 public class InsertionSort {
 
 	private long comparacoes;
@@ -25,6 +30,13 @@ public class InsertionSort {
 		this.tempototal = tempototal;
 	}	
 	
+	/**
+	 * Returns an int array object that has the construction of the insertion sort 
+	 * algorithm.
+	 * 
+	 * @param int vector that will be sorted
+	 * @return sorted vector Insertion Sort algorithm
+	 */
 	public int[] insertionSort(int[] vetor) {
 		this.tempototal = System.currentTimeMillis();
         for (int i = 0; i < vetor.length; i++) {
