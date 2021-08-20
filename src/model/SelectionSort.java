@@ -1,6 +1,6 @@
 package model;
 /**
- * Class that implements the Selection Sort sorting algorithm.
+ * Classe que implementa o algoritmo Selection Sort.
  *
  * @author Natasha Busnardo
  */
@@ -31,11 +31,11 @@ public class SelectionSort {
 	
 	
 	/**
-	 * Returns an int array object that has the construction of the selection sort 
-	 * algorithm.
+	 * Retorna um array inteiro que foi organizado de acordo com o algoritmo 
+	 * Selection Sort.
 	 * 
-	 * @param int vector that will be sorted
-	 * @return sorted vector Selection Sort algorithm
+	 * @param vetor que será organizado
+	 * @return vetor ordenado
 	 */
 	public int[] selectionSort(int[] vetor) {
 		this.tempototal = System.currentTimeMillis();

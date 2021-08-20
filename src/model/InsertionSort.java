@@ -1,7 +1,7 @@
 package model;
 
 /**
- * Class that implements the Insertion Sort sorting algorithm.
+ * Classe que implementa o algoritmo Insertion Sort.
  *
  * @author Natasha Busnardo
  */
@@ -31,11 +31,11 @@ public class InsertionSort {
 	}	
 	
 	/**
-	 * Returns an int array object that has the construction of the insertion sort 
-	 * algorithm.
+	 * Retorna um array inteiro que foi organizado de acordo com o algoritmo 
+	 * Insertion Sort.
 	 * 
-	 * @param int vector that will be sorted
-	 * @return sorted vector Insertion Sort algorithm
+	 * @param vetor que será organizado
+	 * @return vetor ordenado
 	 */
 	public int[] insertionSort(int[] vetor) {
 		this.tempototal = System.currentTimeMillis();

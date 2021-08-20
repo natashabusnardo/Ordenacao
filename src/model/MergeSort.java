@@ -1,7 +1,7 @@
 package model;
 
 /**
- * Class that implements the Merge Sort sorting algorithm.
+ * Classe que implementa o algoritmo Merge Sort.
  *
  * @author Natasha Busnardo
  */
@@ -31,11 +31,11 @@ public class MergeSort {
 	}	
 	
 	/**
-	 * Returns an int array object that has the construction of the merge sort 
-	 * algorithm.
+	 * Retorna um array inteiro que foi organizado de acordo com o algoritmo 
+	 * Merge Sort.
 	 * 
-	 * @param int vector that will be sorted
-	 * @return sorted vector Merge Sort algorithm
+	 * @param vetor que será organizado
+	 * @return vetor ordenado
 	 */
 	public int[] sort(int[] array) {
 	       
@@ -68,11 +68,11 @@ public class MergeSort {
     }
 	
 	/**
-	 * Returns an int array object that has the construction of the merge sort 
-	 * algorithm.
+	 * Retorna um array inteiro que foi organizado de acordo com o algoritmo 
+	 * Merge Sort.
 	 * 
-	 * @param int vector that will be sorted
-	 * @return sorted vector Merge Sort algorithm
+	 * @param vetor que será organizado
+	 * @return vetor ordenado
 	 */
  
     public int[] mergesort(int[] esq, int[] dir) {

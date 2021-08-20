@@ -10,7 +10,7 @@ public class ExecutaSelectionSort {
 		Scanner entrada = new Scanner(System.in);
 		SelectionSort select = new SelectionSort();
 		Random r = new Random();
-		int TAM = 10;
+		int TAM = 1000;
 		int vet[] = new int[TAM];
 		
 		//System.out.print("Vetor Inicial Aleatório = ");

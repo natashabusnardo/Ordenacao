@@ -1,7 +1,7 @@
 package model;
 
 /**
- * Class that implements the Quick Sort sorting algorithm.
+ * Classe que implementa o algoritmo Quick Sort.
  *
  * @author Natasha Busnardo
  */
@@ -32,11 +32,11 @@ public class QuickSort {
 	}	
 	
 	/**
-	 * Returns an int array object that has the construction of the quick sort 
-	 * algorithm.
+	 * Retorna um array inteiro que foi organizado de acordo com o algoritmo 
+	 * Quick Sort.
 	 * 
-	 * @param int vector that will be sorted, leftside and rightside
-	 * @return sorted vector Quick Sort algorithm
+	 * @param vetor que será organizado
+	 * @return vetor ordenado
 	 */
 	public int[] quicksort(int vet[], int esq, int dir){
 	    int pivo = esq, i,ch,j;         

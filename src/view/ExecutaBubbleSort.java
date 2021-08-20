@@ -10,7 +10,7 @@ public class ExecutaBubbleSort {
 		Scanner entrada = new Scanner(System.in);
 		BubbleSort bubble = new BubbleSort();
 		Random r = new Random();
-		int TAM = 10;
+		int TAM = 1000;
 		int vet[] = new int[TAM];
 		
 		//System.out.print("Vetor Inicial Aleatório = ");

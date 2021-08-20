@@ -1,7 +1,7 @@
 package model;
 
 /**
- * Class that implements the Bubble Sort sorting algorithm.
+ * Classe que implementa o algoritmo Bubble Sort.
  *
  * @author Natasha Busnardo
  */
@@ -32,11 +32,11 @@ public class BubbleSort {
 	}
 
 	/**
-	 * Returns an int array object that has the construction of the bubble sort 
-	 * algorithm.
+	 * Retorna um array inteiro que foi organizado de acordo com o algoritmo 
+	 * Bubble Sort.
 	 * 
-	 * @param int vector that will be sorted
-	 * @return sorted vector Bubble Sort algorithm
+	 * @param vetor que será organizado
+	 * @return vetor ordenado
 	 */
 	public int[] bubbleSort(int vetor[]) {
         this.tempototal = System.currentTimeMillis();
