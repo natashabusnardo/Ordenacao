@@ -10,7 +10,7 @@ public class ExecutaMergeSort {
 		Scanner entrada = new Scanner(System.in);
 		MergeSort merge = new MergeSort();
 		Random r = new Random();
-		int TAM = 10;
+		int TAM = 1000;
 		int vet[] = new int[TAM];
 		
 		//System.out.print("Vetor Inicial Aleatório = ");
