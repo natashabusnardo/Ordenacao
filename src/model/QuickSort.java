@@ -35,7 +35,7 @@ public class QuickSort {
 	 * Returns an int array object that has the construction of the quick sort 
 	 * algorithm.
 	 * 
-	 * @param int vector that will be sorted
+	 * @param int vector that will be sorted, leftside and rightside
 	 * @return sorted vector Quick Sort algorithm
 	 */
 	public int[] quicksort(int vet[], int esq, int dir){
